@@ -11,4 +11,4 @@ html 캔버스 연습
 
 ### 라이언 볼 꼬집기
 링크 : https://anyusung.team/canvas/pinch/
-계속 꼬집고 있으면 
+계속 꼬집고 있으면 화냄
