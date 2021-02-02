@@ -8,3 +8,7 @@ html 캔버스 연습
 ### 기타 시뮬레이터
 링크 : https://anyusung.team/canvas/guitar/
 줄 튕기면 소리나옴.
+
+### 라이언 볼 꼬집기
+링크 : https://anyusung.team/canvas/pinch/
+계속 꼬집고 있으면 
