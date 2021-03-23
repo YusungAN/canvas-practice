@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>베지어 커브 구현</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div style="position: fixed;">
+        베지어 커브를 그려봅시다..
+        <div>
+            첫번째 조절점 x: <input type="number" value="0" id="x1"> y: <input type="number" value="0" id="y1">
+        </div>
+        <div>
+            두번째 조절점 x: <input type="number" value="1" id="x2"> y: <input type="number" value="3" id="y2">
+        </div>
+        <div>
+            세번째 조절점 x: <input type="number" value="2" id="x3"> y: <input type="number" value="0" id="y3">
+        </div>
+        <div>
+            보조선 켜기 : <input type="checkbox" id="linecheck">
+        </div>
+        수식(매개변수 t)
+        <div id="xexp"></div>
+        <div id="yexp"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.0/math.js" integrity="sha512-bd8Oth+p1rTn+/iUFHsSozuYn7JpmH59vMWe6L+M3huScB/SMTXWkQoME3Ytk0sbGJ40VGp2mO2b8K8FNrewfQ==" crossorigin="anonymous"></script>
+    <!--수식 표현용 라이브러리-->
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
